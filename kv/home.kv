@@ -1,0 +1,18 @@
+<Home>:
+    MDFloatLayout:
+        md_bg_color: app.theme_manager._bg_color_alp
+        MDBoxLayout:
+            adaptive_size: True
+            
+            orientation: 'vertical'
+            pos_hint: {'center_x': 0.5,'center_y': 0.5}
+            spacing: 30
+            NeuRoundedIconButton:
+                pos_hint: {'center_x': 0.5,'center_y': 0.5}
+                icon: "language-python"
+                size: 150,150
+                font_size: dp(50)
+            MDLabel:
+                text: "Python"
+                halign: "center"
+                color: app.theme_manager.text_color
